@@ -6,15 +6,10 @@
 Welcome to sphinx-issue-9575's documentation!
 =============================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+.. autoclass:: sample_package.Circle
+   :members:
+   :inherited-members:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. autoclass:: sample_package.Pizza
+   :members:
+   :inherited-members:
